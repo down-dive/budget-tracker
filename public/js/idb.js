@@ -1,6 +1,6 @@
 // create variable to hold db connection
 let db;
-// establish a connection to IndexedDB database called 'pizza_hunt' and set it to version 1
+// establish a connection to IndexedDB database called 'budget-tracker' and set it to version 1
 const request = indexedDB.open('budget-tracker', 1);
 
 // this event will emit if the database version changes (nonexistant to version 1, v1 to v2, etc.)
@@ -27,4 +27,16 @@ request.onsuccess = function(event) {
     // log error here
     console.log(event.target.errorCode);
   };
+
+  // This function will be executed if we attempt to submit a new budget and there's no internet connection
+function saveRecord(record) {
+    // open a new transaction with the database with read and write permissions 
+    const transaction = db.transaction(['new_budget'], 'readwrite');
+  
+    // access the object store for `new_budget`
+    const budgetObjectStore = transaction.objectStore('new_budget');
+  
+    // add record to your store with add method
+    budgetObjectStore.add(record);
+  }
   
