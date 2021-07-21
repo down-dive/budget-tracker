@@ -8,31 +8,69 @@ Project is deployed to heroku
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributions](#contributions)
-* [Heroku]($heroku-url)
-* [Credits](#credits)
-* [License](#license)
+- [Budget Tracker](#budget-tracker)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Technologies](#technologies)
+  - [Tasks List](#tasks-list)
+  - [Usage and Tests](#usage-and-tests)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Screenshot](#screenshot)
+  - [Deployed Application](#deployed-application)
+  - [Questions](#questions)
 
-## Installation
-To install this application:
-* clone the repo 
-* run 'npm i' 
+## Technologies
 
+* Express.js
+* MongoDB
+* Mongoose
+* Service workers
+* Web Manifest
+* JavaScript
+* HTML
+* CSS
 
-## Usage
-An easy way to track the budget even offline
+## Tasks List
 
-## Contributions
-If you want to contribute please contact Yev
+- [x] When the user inputs an expense or deposit, then they will receive a notification that they have added an expense or deposit.
+- [x] When the user reestablishes an internet connection, then the deposits or expenses added while they were offline are added to their transaction history and their totals are updated.
 
-## Heroku
-https://sleepy-escarpment-77025.herokuapp.com/
+## Usage and Tests
 
-## Credits
-GitHub: 
-* https://www.github.com/down-dive
+You can view this application using the following link: [Deployed App](https://sleepy-escarpment-77025.herokuapp.com/)
+
+To test the application performance follow these steps:
+
+* To check if this application works in an offline mode, open "Chrome DevTools" and click on the "Network" tab. Find "Throttling" drop-down, and select "Offline". Now try adding and subtracting funds through the application. Cashes of the browser and IndexedDB allow us to use this application without network connectivity.
+
+* You can install the application on your desktop or mobile device by following these steps:
+    1. At the top right of the address bar, click install "+".
+    2. Follow the onscreen instructions to intall PWA.
 
 ## License
-MIT License: A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please first open an issue to discuss what you would like to change.
+
+## Screenshot
+
+Please see below for the screenshot of homepage:
+
+![alt=homepage](./public/img/homepage.png)
+
+
+## Deployed Application
+
+Please use the following link to view the deployed application on heroku: [Deployed App](https://sleepy-escarpment-77025.herokuapp.com/)
+
+## Questions
+
+If you have any questions please use the following two links to contact me:
+
+* [GitHub](https://github.com/down-dive)
+
+* [Email Address](mailto:yterlyuk@gmail.com)
