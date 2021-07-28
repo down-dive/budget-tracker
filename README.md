@@ -38,7 +38,7 @@ Project is deployed to heroku
 
 ## Usage and Tests
 
-You can view this application using the following link: [Deployed App](https://sleepy-escarpment-77025.herokuapp.com/)
+You can view this application using the following link: [Deployed App](https://budget-tracker-yev.herokuapp.com/)
 
 To test the application performance follow these steps:
 
