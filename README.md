@@ -65,7 +65,7 @@ Please see below for the screenshot of homepage:
 
 ## Deployed Application
 
-Please use the following link to view the deployed application on heroku: [Deployed App](https://sleepy-escarpment-77025.herokuapp.com/)
+Please use the following link to view the deployed application on heroku: [Deployed App](https://budget-tracker-yev.herokuapp.com/)
 
 ## Questions
 
